@@ -5,8 +5,8 @@
 #hero {
     background-image: url(../images/bg-curvy-mobile.svg);
     background-repeat: no-repeat;
-    background-position: 20% 110%;
-    background-size: 500px 400px;
+    background-position: 30% 150%;
+    background-size: 700px 400px;
 }
 
 @media (min-width: 768px) {
