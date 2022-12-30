@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 20% 110%;
+    background-size: 500px 400px;
+}
+
+@media (min-width: 768px) {
+    #hero {
+        background-image: url(../images/bg-curvy-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 200%;
+        background-size: auto;
+    }
+}
